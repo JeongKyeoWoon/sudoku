@@ -1,16 +1,4 @@
-/**
- * 그리드의 크기
- */
-const GRID_SIZE = 9;
-/**
- * 박스의 크기
- */
-const BOX_SIZE = 3;
-
-/**
- * 사용 숫자
- */
-const NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+import { BOX_SIZE, GRID_SIZE, NUMBERS } from "@/constants";
 
 /**
  * 그리드 생성 함수
