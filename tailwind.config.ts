@@ -11,6 +11,9 @@ const config: Config = {
       backgroundColor: {
         default: "#212121",
       },
+      borderColor: {
+        default: "#505050",
+      },
     },
   },
   plugins: [],
