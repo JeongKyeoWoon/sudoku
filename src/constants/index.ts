@@ -12,4 +12,7 @@ export const LEVEL_LIST = [
   { name: "Expert", deletionsCount: 55 },
   { name: "Ultimate", deletionsCount: 64 },
 ];
+/** 스도쿠 게임 정보 로컬 저장소 키 */
+export const SUDOKU_GAME_INFO_LOCAL_STORAGE_KEY =
+  "SUDOKU_GAME_INFO_LOCAL_STORAGE_KEY";
 

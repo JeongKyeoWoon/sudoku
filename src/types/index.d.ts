@@ -23,3 +23,21 @@ interface ISudoku {
   question: number[][];
 }
 
+/**
+ * 게임 정보
+ */
+interface IGameInfo {
+  /** 레벨 정보 */
+  level: ILevel;
+  /** 경과시간 (초) */
+  seconds: number;
+  /** 오답 수 */
+  mistakeCount: number;
+  /** 그리드 정보 */
+  grid: number[][];
+  /** 스도쿠 정보 */
+  sudoku: {
+    solution: number[][];
+    question: number[][];
+  };
+}

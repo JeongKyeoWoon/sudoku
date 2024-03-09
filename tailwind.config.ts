@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        gray: {
+          primary: "#505050",
+        },
+      },
       backgroundColor: {
         default: "#212121",
       },
